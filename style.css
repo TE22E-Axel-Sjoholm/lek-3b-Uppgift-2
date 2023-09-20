@@ -10,8 +10,9 @@ h1{
     align-items: center;
     justify-content: space-around;
     background-image:url(/img/snow_winter_trees.jpg);
-    min-height:580px;
+    background-size: cover;
     border: red solid 2px;
+    flex-direction: column;
 }
 img{
     max-width: 100px;
@@ -27,4 +28,8 @@ img{
     border-radius: 5px ;
     padding: 5px;
     padding-top: 10px;
+    margin: 6px;
+}
+.jul{
+margin-bottom: 200px;
 }
