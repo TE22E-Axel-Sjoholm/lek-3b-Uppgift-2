@@ -14,7 +14,7 @@ h1{
     border: red solid 2px;
     flex-direction: column;
 }
-img{
+.topbilderong{
     max-width: 100px;
     height: 25px;
     margin-left: 100px;
@@ -32,4 +32,37 @@ img{
 }
 .jul{
 margin-bottom: 200px;
+}
+.mellan {
+	display: flex;
+	gap: 10px;
+	padding: 5px;
+}
+
+.vänster {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+    border: 2px red solid;
+}
+
+.vänster img {
+	height: 20px;
+}
+
+.main {
+	width: 75%;
+    border: red solid 2px;
+}
+
+.vänster {
+	width: 20%;
+}
+
+.höger {
+    width: fit-content;
+    height: fit-content;
+    object-fit: fill;
+
 }
