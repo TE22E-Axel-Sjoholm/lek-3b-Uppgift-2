@@ -78,3 +78,8 @@ margin-bottom: 200px;
 div{
     border-radius: 5px ;
 }
+.sidfot {
+	display: flex;
+	justify-content: center;   
+    border: solid red 2px; 
+}
